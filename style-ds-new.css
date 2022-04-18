@@ -1,7 +1,7 @@
 body {
     margin: auto;
     /* background-image: url('./images/solar-panels.jpg'); */
-    background-image: url('./images/leaf_new.png');
+    background-image: url('./images/leaf.jpg');
 
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -210,7 +210,7 @@ footer text {
 @media all and (max-width: 800px) {
 
     body {
-        background-image: url('/images/leaf.jpg');
+        /* background-image: url('/images/leaf.jpg'); */
         background-size: 150%;
         background-position-y: -35px;
         background-position-x: -100px;
