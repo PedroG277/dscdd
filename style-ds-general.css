@@ -176,7 +176,7 @@ footer text {
 @media all and (max-width: 850px) {
 
     body {
-    background-image: url('/images/solar-panels.jpg');
+    /* background-image: url('/images/solar-panels.jpg'); */
     background-attachment: fixed;
     background-size: 380%;
 
