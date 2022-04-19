@@ -210,6 +210,7 @@ footer text {
     .psnc-body {
         background-image: url('/images/green-paint.jpg');
         background-position-y: 3px; 
+        background-position-x: 0px;
         background-size: 140%;
     
     }
