@@ -142,6 +142,71 @@ tittle {
 
 }
 
+.names-container {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.dot {
+    margin-top: 10px;
+    height: 210px;
+    width: 210px;
+    display: inline-block;
+    border: 12px solid #135930;
+    border-radius: 25%;
+
+}
+
+.dot-marg {
+    background-image: url('/images/bee-m.jpg');
+    background-size: 260%;
+    background-position-x: -235px;
+    background-position-y: -135px;
+    height: 210px;
+    width: 210px;
+
+  }
+
+  .dot-mar {
+    background-image: url('/images/burafly-m.jpg');
+    background-size: 260%;
+    background-position-x: -165px;
+    background-position-y: 985px;
+
+  }
+
+  .dot-pdr {
+    background-image: url('/images/piupiu-p.jpg');
+    background-size: 210%;
+    background-position-x: -110px;
+    background-position-y: 845px;
+
+  }
+
+
+  .dot-vrn {
+    background-image: url('/images/fulor-v.jpg');
+    background-size: 230%;
+    background-position-x: -150px;
+    background-position-y: 930px;
+
+  }
+
+
+.names-box {
+    /* background-color: fuchsia; */
+    display: grid;
+    justify-items: center;
+}
+
+.names-text {
+    margin: 0px;
+    font-size: 240%;
+
+}
+
 
 .header-filler {
     width: 100%;
@@ -189,6 +254,7 @@ footer text {
 
     body {
     /* background-image: url('/images/solar-panels.jpg'); */
+    width: 100%;
     background-attachment: fixed;
     background-size: 380%;
 
@@ -309,7 +375,59 @@ footer text {
 
 
 
+    .names-container {
+        /* background-color: aqua; */
+        display: grid;
+        justify-content: center;
+        margin-bottom: 0px;
+    }
+    
+    .names-box {
+        background-color: rgba(255, 0, 255, 0);
+    }
 
+    .dot {
+        height: 180px;
+        width: 180px;
+        border: 10px solid #135930;
+        margin-bottom: 60px;
+    }
+
+    .dot-marg {
+        background-image: url('/images/bee-m.jpg');
+        background-size: 260%;
+        background-position-x: -200px;
+        background-position-y: -120px;
+
+      }
+    
+      .dot-mar {
+        background-image: url('/images/burafly-m.jpg');
+        background-size: 290%;
+        background-position-x: -170px;
+        background-position-y: -100px;
+
+
+      }
+    
+      .dot-pdr {
+        background-image: url('/images/piupiu-p.jpg');
+        background-size: 210%;
+        background-position-x: -85px;
+        background-position-y: -30px;
+
+
+      }
+    
+    
+      .dot-vrn {
+        background-image: url('/images/fulor-v.jpg');
+        background-size: 240%;
+        background-position-x: -140px;
+        background-position-y:840px;
+;
+
+      }
 
 
 
